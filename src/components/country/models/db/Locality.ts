@@ -6,6 +6,9 @@ export class Locality extends Model {
     return 'id';
   }
 
+  id!: number;
+  description!: string;
+
   static get tableName() {
     return TableNames.Locality;
   }

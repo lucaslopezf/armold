@@ -11,6 +11,10 @@ export class City extends Model {
     return 'id';
   }
 
+  id!: number;
+  name!: string;
+  localities?: Locality[];
+
   static get relationMappings(): RelationMappings {
     const localities: RelationMapping<Locality> = {
       relation: Model.HasManyRelation,

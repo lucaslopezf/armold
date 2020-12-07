@@ -11,6 +11,11 @@ export class Country extends Model {
     return 'id';
   }
 
+  id!: number;
+  name!: string;
+  iso_3!: string;
+  states?: State[];
+
   static get relationMappings(): RelationMappings {
     const states: RelationMapping<State> = {
       relation: Model.HasManyRelation,
