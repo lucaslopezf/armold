@@ -8,7 +8,7 @@ import { validateGet } from './utils/validators/get';
 
 export const getCountries = async (request: GetCountriesRequest): Promise<PaginatedResponse<CountryDto>> => {
   const errors = validateGet(request);
-  if (errors.length) throw new HTTPArmoldError(HttpStatusCode.BadRequest, undefined, errors);
+  if (errors.length) throw new HTTPArmoldError(HttpStatusCode.BadRequest, errors);
 
   const query = mapGetToQuery(request);
   const { total, results } = await get(query);

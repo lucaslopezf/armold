@@ -1,3 +1,3 @@
-import geoRoutes from './country/routes';
+import countryRoutes from './country/routes';
 
-export default [...geoRoutes];
+export default [...countryRoutes];
