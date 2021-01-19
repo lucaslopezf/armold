@@ -1,4 +1,4 @@
-import { DEFAULT_LIMIT, DEFAULT_PAGE } from 'armold-test';
+import { DEFAULT_LIMIT, DEFAULT_PAGE } from 'armold-microservices';
 import { GetCountriesQuery, GetCountriesRequest } from '../../../models';
 import { mapToValue } from '../mappings';
 

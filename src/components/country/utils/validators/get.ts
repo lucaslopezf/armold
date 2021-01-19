@@ -1,4 +1,4 @@
-import { ValidationError, validateJsonSchema, isValidNumber } from 'armold-test';
+import { ValidationError, validateJsonSchema } from 'armold-microservices';
 import { GetCountriesRequest } from '../../models';
 import { getParamsSchema } from '../schemas/getParams';
 

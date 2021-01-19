@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@types/express": "^4.17.9",
-    "armold-test": "^1.0.5",
+    "armold-microservices": "^1.0.0-beta",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "knex": "^0.21.1",

@@ -1,6 +1,6 @@
 import { get } from './repository';
 import { GetCountriesRequest } from './models/dto/request/GetCountriesRequest';
-import { HTTPArmoldError, HttpStatusCode, PaginatedResponse } from 'armold-test';
+import { HTTPArmoldError, HttpStatusCode, PaginatedResponse } from 'armold-microservices';
 import { mapGetToQuery } from './utils';
 import { mapperCountryToDto } from './utils/mappers/country';
 import { CountryDto } from './models';

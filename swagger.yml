@@ -57,9 +57,7 @@ paths:
         '200':
           description: 'successful operation'
           schema:
-            type: 'array'
-            items:
-              $ref: '#/definitions/ApiResponse'
+            $ref: '#/definitions/ApiResponse'
         '400':
           description: 'Invalid status value'
         '404':
@@ -79,7 +77,6 @@ definitions:
       states:
         type: 'array'
         items:
-          type: 'object'
           $ref: '#/definitions/State'
   State:
     type: 'object'
@@ -92,7 +89,6 @@ definitions:
       cities:
         type: 'array'
         items:
-          type: 'object'
           $ref: '#/definitions/City'
   City:
     type: 'object'
@@ -105,7 +101,6 @@ definitions:
       localities:
         type: 'array'
         items:
-          type: 'object'
           $ref: '#/definitions/Locality'
   Locality:
     type: 'object'
@@ -130,5 +125,4 @@ definitions:
       results:
         type: 'array'
         items:
-          type: 'object'
           $ref: '#/definitions/Country'
