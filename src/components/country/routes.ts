@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { getCountries } from './service';
-import { HttpStatusCode } from 'armold-test';
+import { HttpStatusCode } from 'armold-microservices';
 import { Paths } from './utils';
 
 export default [

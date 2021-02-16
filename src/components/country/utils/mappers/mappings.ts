@@ -1,4 +1,4 @@
-import { createMapper } from 'armold-test';
+import { createMapper } from 'armold-microservices';
 
 const mappings = {
   sort: [{ label: 'code', value: 'iso_3' }],

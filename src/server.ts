@@ -1,4 +1,4 @@
-import { logger, startServer } from 'armold-test';
+import { logger, startServer } from 'armold-microservices';
 import routes from './components';
 import { connectDb } from './config/db/db';
 import { armoldDb } from './config/db/knexfile';
